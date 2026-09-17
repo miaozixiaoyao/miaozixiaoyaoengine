@@ -3,13 +3,13 @@
   "views": {
     "default": {
       /* 🟢 1. LIỆT KÊ TẤT CẢ ID TIỆN ÍCH MUỐN HIỂN THỊ LÊN SẢNH TẠI ĐÂY */
-      "firstIds": ["fire-bullet-custom", "multiplayer-pvp", "ai-enemy"]
+      "firstIds": ["UntitledExtension", "multiplayer-pvp", "ai-enemy"]
     }
   },
   "headers": [
     {
-      "name": "fire-bullet-custom",
-      "fullName": "MiaoZi Fire Bullets Custom",
+      "name": "UntitledExtension",
+      "fullName": "UntitledExtension",
       "shortDescription": "Hệ thống tự động điều khiển tần suất và số lượng đạn bắn ra cao cấp.",
       "version": "1.0.0",
       "gdevelopVersion": "5.0.0",
@@ -19,10 +19,10 @@
       "authors": [],
       "authorIds": ["miaozixiaoyao"],
       "previewIconUrl": "https://gdevelop.com",
-      "headerUrl": "https://githubusercontent.com",
-      "url": "https://githubusercontent.com"
+      "headerUrl": "https://raw.githubusercontent.com/miaozixiaoyao/miaozixiaoyaoengine/main/extensions/UntitledExtension.json",
+      "url": "https://raw.githubusercontent.com/miaozixiaoyao/miaozixiaoyaoengine/main/extensions/UntitledExtension.json"
     },
-    
+/*    
     /* 🟢 2. TIỆN ÍCH THỨ HAI: HỆ THỐNG MẠNG PVP */
     {
       "name": "multiplayer-pvp",
@@ -56,5 +56,6 @@
       "headerUrl": "https://githubusercontent.com",
       "url": "https://githubusercontent.com"
     }
+*/
   ]
 }
