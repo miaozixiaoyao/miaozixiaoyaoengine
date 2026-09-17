@@ -1,0 +1,157 @@
+{
+  "author": "",
+  "category": "General",
+  "dimension": "",
+  "extensionNamespace": "",
+  "fullName": "",
+  "gdevelopVersion": "",
+  "helpPath": "",
+  "iconUrl": "",
+  "name": "UntitledExtension",
+  "previewIconUrl": "",
+  "shortDescription": "",
+  "version": "",
+  "description": "",
+  "tags": [],
+  "authorIds": [],
+  "dependencies": [],
+  "globalVariables": [],
+  "sceneVariables": [],
+  "eventsFunctions": [
+    {
+      "fullName": "",
+      "functionType": "Action",
+      "name": "Function",
+      "sentence": "",
+      "events": [],
+      "parameters": [],
+      "objectGroups": []
+    }
+  ],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "functionName": "Function"
+      }
+    ]
+  },
+  "tests": [
+    {
+      "description": "",
+      "lastRunAt": 1789631383638,
+      "lastRunDurationMs": 8,
+      "lastRunFramesExecuted": 60,
+      "lastRunStatus": "passed",
+      "name": "MyTest",
+      "type": "gameplay",
+      "source": [
+        "// This script plays the game and checks it behaves as expected.",
+        "// It runs inside the game: use `harness` to play frames, simulate",
+        "// the player inputs and inspect the objects of the scene.",
+        "",
+        "// The game starts on its first scene. You can jump to any scene:",
+        "// await harness.goToScene('MyLevel');",
+        "",
+        "// Play one second of the game (60 frames):",
+        "await harness.stepFrames(60);",
+        "",
+        "// Simulate the player pressing a key (also see setMousePosition,",
+        "// setMouseButtonPressed, touchStart...):",
+        "// harness.setKeyPressed('Right', true);",
+        "// await harness.stepFrames(30);",
+        "// harness.setKeyPressed('Right', false);",
+        "",
+        "// Inspect objects and check the game state - a failed assert fails the test:",
+        "// const players = harness.getObjects('Player');",
+        "// harness.assert(players.length === 1, 'The player is in the scene');",
+        "",
+        "console.log('Scene at the end of the test:', harness.getSceneName());",
+        ""
+      ]
+    }
+  ],
+  "eventsBasedBehaviors": [
+    {
+      "description": "",
+      "fullName": "",
+      "helpPath": "",
+      "iconUrl": "",
+      "name": "MyBehavior",
+      "objectType": "",
+      "previewIconUrl": "",
+      "eventsFunctions": [],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT"
+      },
+      "propertyDescriptors": [],
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT"
+      }
+    }
+  ],
+  "eventsBasedObjects": [
+    {
+      "areaMaxX": 64,
+      "areaMaxY": 64,
+      "areaMaxZ": 64,
+      "areaMinX": 0,
+      "areaMinY": 0,
+      "areaMinZ": 0,
+      "defaultName": "",
+      "description": "",
+      "fullName": "",
+      "helpPath": "",
+      "iconUrl": "",
+      "isUsingLegacyInstancesRenderer": false,
+      "name": "MyObject",
+      "previewIconUrl": "",
+      "objects": [],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT"
+      },
+      "objectsGroups": [],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "instances": [],
+      "editionSettings": {},
+      "eventsFunctions": [],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT"
+      },
+      "propertyDescriptors": [],
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT"
+      }
+    }
+  ]
+}
