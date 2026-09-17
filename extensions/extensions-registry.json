@@ -1,0 +1,60 @@
+{
+  "version": "1.0.0",
+  "views": {
+    "default": {
+      /* 🟢 1. LIỆT KÊ TẤT CẢ ID TIỆN ÍCH MUỐN HIỂN THỊ LÊN SẢNH TẠI ĐÂY */
+      "firstIds": ["fire-bullet-custom", "multiplayer-pvp", "ai-enemy"]
+    }
+  },
+  "headers": [
+    {
+      "name": "fire-bullet-custom",
+      "fullName": "MiaoZi Fire Bullets Custom",
+      "shortDescription": "Hệ thống tự động điều khiển tần suất và số lượng đạn bắn ra cao cấp.",
+      "version": "1.0.0",
+      "gdevelopVersion": "5.0.0",
+      "category": "Gameplay",
+      "tier": "reviewed",
+      "tags": "bullet, weapon, miaozi",
+      "authors": [],
+      "authorIds": ["miaozixiaoyao"],
+      "previewIconUrl": "https://gdevelop.com",
+      "headerUrl": "https://githubusercontent.com",
+      "url": "https://githubusercontent.com"
+    },
+    
+    /* 🟢 2. TIỆN ÍCH THỨ HAI: HỆ THỐNG MẠNG PVP */
+    {
+      "name": "multiplayer-pvp",
+      "fullName": "MiaoZi Multiplayer Network PvP",
+      "shortDescription": "Kết nối đồng bộ ma trận dữ liệu trực tuyến tốc độ cao cho game PvP.",
+      "version": "1.0.0",
+      "gdevelopVersion": "5.0.0",
+      "category": "Network",
+      "tier": "reviewed",
+      "tags": "multiplayer, pvp, network",
+      "authors": [],
+      "authorIds": ["miaozixiaoyao"],
+      "previewIconUrl": "https://gdevelop.com",
+      "headerUrl": "https://githubusercontent.com",
+      "url": "https://githubusercontent.com"
+    },
+
+    /* 🟢 3. TIỆN ÍCH THỨ BA: THUẬT TOÁN AI KẺ ĐỊCH */
+    {
+      "name": "ai-enemy",
+      "fullName": "MiaoZi Quantum AI Enemy",
+      "shortDescription": "Thuật toán AI tự động bám góc, ghim tâm và tìm đường nâng cao.",
+      "version": "1.0.0",
+      "gdevelopVersion": "5.0.0",
+      "category": "Advanced",
+      "tier": "reviewed",
+      "tags": "ai, enemy, pathfinding",
+      "authors": [],
+      "authorIds": ["miaozixiaoyao"],
+      "previewIconUrl": "https://gdevelop.com",
+      "headerUrl": "https://githubusercontent.com",
+      "url": "https://githubusercontent.com"
+    }
+  ]
+}
